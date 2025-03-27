@@ -5,30 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="style.css">
-    <title>Persongram</title>
+    <title>Faça seu cadastr - Sujeitogram</title>
 </head>
 <body>
     <!-- Area wrapper -->
     <div id="wrapper">
         <!-- Area container -->
-        <div id="container">
-            <!-- Area esquerda -->
-            <div class="column left">
-                <div class="main">
-
-                </div>
-            </div>
-            <!-- Fim área esquerda -->
+        <div id="container-signup">
+            
 
             <!-- Área direta -->
-            <div class="column right">
+            <div class="column">
                 <!-- Area de log in -->
                 <div class="login-panel">
                     <div class="logo">
                         <img class="logo-img" src="/assets/logo.png" alt="Logo do Persongram">
                     </div>
+                    <div class="message">
+                        <span>Cadastre-se para ver fotos e vídeos dos seus amigos.</span>
+                        
+                    </div>
+                    <button class="cta-button">Entrar com o Facebook</button>
+
+                    <div class="divisor-container">
+                        <div class="line"></div>
+                        <div class="divisor-tag">ou</div>
+                        <div class="line"></div>
+                        
+                    </div>
                     <form>
-                        <input placeholder="Telefone, usuáro ou e-mail" type="text" name="username">
+                        <input placeholder="Número de celular ou e-mail" type="text" name="email">
+                        <input placeholder="Nome completo" type="text" name="name">
+                        <input placeholder="Username" type="text" name="username">
                         <input placeholder="Senha" type="password" name="password">
 
                         <input type="submit" value="Entrar">
@@ -39,7 +47,7 @@
                 <!--Inicio infobox  -->
 
                 <div class="infobox">
-                    <p>Não possui uma conta?<a href="signup.html"> Cadastre-se</a></p>
+                    <p>Tem uma conta?<a href="index.html"> Conecte-se</a></p>
                 </div>
                 <!-- Fim infobox -->
 
@@ -49,17 +57,16 @@
                     <div class="app-buttons">
                         <a href="#">
                             <img src="/assets/appstore.png" alt="Baixe na App Store">        
-                    </a>
-                    <a href="#">
-                        <img src="/assets/googleplay.png" alt="Baixe na Google Play">
-                    </a>    
+                        </a>
+                        <a href="#">
+                            <img src="/assets/googleplay.png" alt="Baixe na Google Play">
+                        </a>    
                     </div>
-
                 </div>
                 <!-- Fim get apps -->
             </div>
 
-            <!-- Fim área direita -->
+            
         </div>
         <!-- Fim container -->
     
@@ -79,18 +86,11 @@
                 <a href="#">Profiles</a>
                 <a href="#">Hashtags</a>
                 <a href="#">Language</a>
-                <div class="text-small">@2022 Instagram</div>
-
-
-                
+                <div class="text-small">@2022 Instagram</div>   
             </div>
         </footer>
 
     <!-- Fim wrapper -->
     </div>
-
-    
-
-
 </body>
 </html>
